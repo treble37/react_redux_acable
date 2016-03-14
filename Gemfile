@@ -30,6 +30,12 @@ gem 'jbuilder', '~> 2.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# React for view components
+gem 'react-rails', '~> 1.6.0'
+
+# browserify-rails for
+gem 'browserify-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
